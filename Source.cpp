@@ -23,6 +23,7 @@ bool write_to_table(ofstream& file,const string user_name,const int attempts)
 
 int main(int argc, char* argv[])
 {
+	system("chcp 1251>nul");
 	bool win = false;
 	int user_numb = 0, attempts = 0;
 	int secret_numb = Return_Rand_Numb();
