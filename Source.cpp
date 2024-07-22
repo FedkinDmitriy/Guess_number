@@ -1,4 +1,4 @@
-#include <iostream>
+п»ї#include <iostream>
 #include <string>
 #include <fstream>
 #include <cstdlib>
@@ -29,7 +29,7 @@ int main(int argc, char* argv[])
 	int secret_numb = Return_Rand_Numb();
 	string user_name;
 	const string name_table = "hight_scores.txt";
-	ofstream out_file{ name_table, ios_base::app }; // создаём файл для записи в режиме append - добавления
+	ofstream out_file{ name_table, ios_base::app }; // СЃРѕР·РґР°С‘Рј С„Р°Р№Р» РґР»СЏ Р·Р°РїРёСЃРё РІ СЂРµР¶РёРјРµ append - РґРѕР±Р°РІР»РµРЅРёСЏ
 
 	//user_name = argv[1];
 	//cout << "Hello, " << user_name << ", let's play!" << endl;
