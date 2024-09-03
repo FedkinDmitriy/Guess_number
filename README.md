@@ -11,7 +11,7 @@
 1. Склонируйте репозиторий на ваш компьютер:
 
    ```bash
-   git clone https://github.com/ваш_репозиторий.git
+   git clone https://github.com/FedkinDmitriy/Guess_number
    ```
 
 2. Перейдите в директорию с проектом:
